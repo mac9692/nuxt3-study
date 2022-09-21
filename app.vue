@@ -1,18 +1,11 @@
 <template>
-<!--  <div>-->
-<!--    <NuxtWelcome />-->
-<!--  </div>-->
-
-
-<!--  <NuxtLayout>-->
-<!--    페이지 컨텐츠-->
-<!--  </NuxtLayout>-->
-
-  <NuxtLayout :name="layout">
-    <NuxtPage/>
-  </NuxtLayout>
+  <div>
+    <NuxtLayout :name="layoutName">
+      slot 을 임의의 문장으로 채워봅시다.
+    </NuxtLayout>
+  </div>
 </template>
 
 <script setup>
-const layout = "layout-one";
+const layoutName = "layout-one"
 </script>

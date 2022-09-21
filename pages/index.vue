@@ -8,8 +8,9 @@
 export default {
   name: "index"
 }
+
 definePageMeta({
-  layout: "layout-one",
+  layoutName: "layout-one",
 });
 </script>
 
