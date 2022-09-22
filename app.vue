@@ -1,11 +1,13 @@
 <template>
   <div>
     <NuxtLayout :name="layoutName">
-      slot 을 임의의 문장으로 채워봅시다.
+      <typescript-test/>
     </NuxtLayout>
   </div>
 </template>
 
 <script setup>
+import TypescriptTest from "./pages/typescript-test";
+
 const layoutName = "layout-one"
 </script>
