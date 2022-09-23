@@ -1,17 +1,13 @@
 <template>
   <div>
-    <p>기본 페이지 "index"</p>
+    <h1>헤더입니다.</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "TheHeader"
 }
-
-definePageMeta({
-  layoutName: "layout-one",
-});
 </script>
 
 <style scoped>

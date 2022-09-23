@@ -1,17 +1,13 @@
 <template>
   <div>
-    <p>기본 페이지 "index"</p>
+      <h2>{{$route.params.group}} - {{ $route.params.id }}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "[id]"
 }
-
-definePageMeta({
-  layoutName: "layout-one",
-});
 </script>
 
 <style scoped>

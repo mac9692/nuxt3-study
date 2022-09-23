@@ -1,17 +1,13 @@
 <template>
   <div>
-    <p>기본 페이지 "index"</p>
+    <h2>푸터입니다.</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "TheFooter"
 }
-
-definePageMeta({
-  layoutName: "layout-one",
-});
 </script>
 
 <style scoped>

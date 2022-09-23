@@ -1,17 +1,13 @@
 <template>
   <div>
-    <p>기본 페이지 "index"</p>
+    <h2>회원의 아이디는 {{ $route.params.id }} 입니다.</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "[id]"
 }
-
-definePageMeta({
-  layoutName: "layout-one",
-});
 </script>
 
 <style scoped>

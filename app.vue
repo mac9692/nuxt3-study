@@ -1,13 +1,11 @@
 <template>
   <div>
-    <NuxtLayout :name="layoutName">
-      <typescript-test/>
+    <NuxtLayout>
+      <NuxtPage/>
     </NuxtLayout>
   </div>
 </template>
 
-<script setup>
-import TypescriptTest from "./pages/typescript-test";
+<script>
 
-const layoutName = "layout-one"
 </script>
