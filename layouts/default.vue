@@ -3,7 +3,7 @@
     <TheHeader/>
     <MenuNavBar/>
     <p>Layout은 모든 페이지에서 공유됩니다.</p>
-    <slot/>
+    <NuxtPage/>
     <p>Layout은 모든 페이지에서 공유됩니다.</p>
     <TheFooter/>
   </div>
